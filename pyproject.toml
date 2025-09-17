@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crear_app_full_django_anyelser"
+version = "0.1.0"
+description = "Una librería para crear app mas personalizadas en django"
+authors = [{ name = "Anyelser", email = "anyelserperez@gmail.com" }]
+readme = "README.md"
+license = "MIT"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = []  # Lista de dependencias si las tienes
+
+[project.urls]
+Homepage = "#"
