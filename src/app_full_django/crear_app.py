@@ -20,11 +20,10 @@ def main():
     # Contenido para apps.py
     contenido = """from django.apps import AppConfig
 
-
-    class {}Config(AppConfig):
-        default_auto_field = 'django.db.models.BigAutoField'
-        name = '{}'
-    """.format(app_nombre.capitalize(), app_nombre_con_aplicacion)
+class {}Config(AppConfig):
+    default_auto_field = 'django.db.models.BigAutoField'
+    name = '{}'
+""".format(app_nombre.capitalize(), app_nombre_con_aplicacion)
 
 
     #print(contenido)
