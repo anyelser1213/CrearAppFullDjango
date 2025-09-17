@@ -14,7 +14,12 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
-dependencies = []  # Lista de dependencias si las tienes
+dependencies = [
+    "Django>=5.0",  # ¡Aquí declares Django!
+]
+
+[project.scripts]
+crear-app-full-django = "app_full_django.crear_app:main"
 
 [project.urls]
 Homepage = "https://github.com/anyelser1213/CrearAppFullDjango"
